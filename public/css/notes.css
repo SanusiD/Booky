@@ -1,0 +1,213 @@
+* {
+  font-family: 'Playfair Display',
+ serif;
+  font-weight: 600;
+}
+
+
+body {
+  background-color: #FBFBFB;
+}
+
+.account {
+  display: none;
+  position: absolute;
+  /* margin-right: 1em; */
+  z-index: 1;
+}
+
+.account a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.more:hover .account {
+  display: block;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  font-weight: 600;
+  display: flex;
+  padding: 1em 2em;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-bottom: 2px;
+  margin-left: 1em;
+}
+
+nav .createEvent {
+  background-color: #100f2c;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: horizontal;
+  flex-direction: horizontal;
+  list-style: none;
+}
+
+nav .logo img {
+  width: 150px;
+  height: auto;
+}
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  /* -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1; */
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+a{
+  text-decoration: none;
+}
+
+.note {
+  background-color: #F699A3;
+  width: 200px;
+  height: 200px;
+  color: white;
+  padding: 1.5em;
+  margin: 1em;
+}
+
+header {
+  margin: 2em;
+}
+
+header h1 {
+  font-size: 42pt;
+}
+
+header p {
+  font-size: 20px;
+}
+/*# sourceMappingURL=notes.css.map */
+
+.colors input[type="radio"] {
+  opacity: 0;
+  width: 0;
+}
+
+.colors {
+  display: flex;
+  margin-top: 20px;
+}
+
+.colors ::selection {
+  color: none;
+}
+
+.colors label {
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 10px 20px;
+  color: transparent;
+}
+
+
+
+.yellow label {
+  background-color: #dddd63;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.yellow input[type="radio"]:checked+label {
+  background-color: #eeee58;
+}
+
+.yellow input[type="radio"]:hover+label {
+  background-color: yellow;
+}
+
+.yellow input[type="radio"]:focus+label {
+  border: 2px dashed #44444491;
+}
+
+.red label {
+  background-color: #f06363;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.red input[type="radio"]:checked+label {
+  background-color: #f06363;
+}
+
+.red input[type="radio"]:hover+label {
+  background-color: red;
+}
+
+.red input[type="radio"]:focus+label {
+  border: 2px dashed #44444491;
+}
+
+.brown label {
+  background-color: #675cc8;
+  font-family: sans-serif, Arial;
+  font-size: 16px;
+  border-radius: 4px;
+}
+
+.brown input[type="radio"]:checked+label {
+  background-color: #675cc8;
+}
+
+.brown input[type="radio"]:hover+label {
+  background-color: #100f2c;
+}
+
+input[type="radio"]:focus+label {
+  border: 2px dashed 44444491;
+}
+
+.ck-file-dialog-button{
+  visibility: hidden;
+}
+
+.newnote:hover{
+    background-color:#423fa5;
+
+}
+
+.newnote{
+  float:right;
+  color:white;
+  background-color:#100f2c;
+  padding:20px 40px;
+  border-radius:20px;
+}
+
+.darkmode-toggle{
+  z-index: 1;
+}

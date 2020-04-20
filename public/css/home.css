@@ -1,0 +1,188 @@
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  background-color: #FBFBFB;
+}
+
+.account {
+  display: none;
+  position: absolute;
+  /* margin-right: 1em; */
+  z-index: 1;
+}
+
+.account a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.more:hover .account {
+  display: block;
+}
+
+nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  font-weight: 600;
+  display: flex;
+  padding: 1em 2em;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+  padding-bottom: 2px;
+  margin-left: 1em;
+}
+
+nav .createEvent {
+  background-color: #100f2c;
+  padding: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+nav a:hover {
+  border-bottom: 2px solid black;
+}
+
+nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: horizontal;
+  flex-direction: horizontal;
+  list-style: none;
+}
+
+nav .logo img {
+  width: 150px;
+  height: auto;
+}
+
+
+.container {
+  display: -ms-grid;
+  display: grid;
+  height: 93vh;
+  -ms-grid-columns: 1fr 2fr 1fr;
+      grid-template-columns: 1fr 2fr 1fr;
+  -ms-grid-rows: 2fr 2fr 1fr;
+      grid-template-rows: 2fr 2fr 1fr;
+}
+
+.container a {
+  text-decoration: none;
+  padding: 1em 1em;
+  color: white;
+  background-color: #BA0017;
+  border-radius: 15px;
+}
+
+.container .splash {
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  grid-row: 1/2;
+  text-align: center;
+  padding: 1em 0 5em;
+}
+
+.container .splash h1 {
+  font-size: 5rem;
+  color: #BA0017;
+}
+
+.container .splash h2 {
+  color: #100f2c;
+}
+
+.container .notes {
+  white-space: nowrap;
+  /* margin-bottom: 2em; */
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.container .event {
+  white-space: nowrap;
+  /* margin-bottom: 2em; */
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.container .tasks {
+  white-space: nowrap;
+  /* margin-bottom: 2em; */
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  text-align: center;
+}
+
+.container .weather {
+  white-space: nowrap;
+  background-color: #100f2c;
+  color: white;
+  padding: 1.5em;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  text-align: center;
+}
+
+.container .time {
+  white-space: nowrap;
+  background-color: #100f2c;
+  color: white;
+  padding: 1.5em;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  text-align: center;
+}
+
+.container .day {
+  white-space: nowrap;
+  background-color: #100f2c;
+  color: white;
+  padding: 1.5em;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+  -ms-grid-row: 3;
+  -ms-grid-row-span: 1;
+  grid-row: 3/4;
+  text-align: center;
+}
+/*# sourceMappingURL=home.css.map */

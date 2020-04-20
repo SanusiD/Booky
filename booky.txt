@@ -1,0 +1,15 @@
+Booky Synopsis
+--------------------
+
+
+Booky is a web application that allows users to schedule and plan their lives.
+
+Events(can have a note)
+    - Users will be allowed to create and schedule events and on completion of creation, an email will be sent to the creator and the poeple attending it. 
+
+Notes(shold be added to an event)
+    - Another feature it has is to create notes as it'll benefit users to be able write down notes that they will need for the certain event. 
+
+Task*** Optional Feature.(MAYBE CHANGE TO TODO LIST)
+    - Basically to track tasks lol . I'm not so sure about the specifics
+    - Re
