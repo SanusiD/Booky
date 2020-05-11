@@ -11,5 +11,4 @@ Notes(shold be added to an event)
     - Another feature it has is to create notes as it'll benefit users to be able write down notes that they will need for the certain event. 
 
 Task*** Optional Feature.(MAYBE CHANGE TO TODO LIST)
-    - Basically to track tasks lol . I'm not so sure about the specifics
-    - Re
+    - Basically to track tasks. I'm not so sure about the specifics
